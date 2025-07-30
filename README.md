@@ -58,4 +58,4 @@ This project is configured for GitHub Pages deployment. The app will be availabl
 
 - The app is configured with the base path `/MotorCare_Insurance/` for GitHub Pages
 - React Router is configured with the correct basename
-- All assets and routes will work correctly on GitHub Pages
+- All assets and routes will work correctly on GitHub Pages"# Trigger deployment" 
