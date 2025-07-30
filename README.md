@@ -1,5 +1,7 @@
-Project Overview
-  MotorCare_Insurance is a professional motor insurance quotation system that was developed by Dalitso Zulu for the Hobbiton Technologies Challenge.
+Project Overview(https://adorable-melomakarona-31e202.netlify.app/)
+
+  MotorCare Insurance
+  is a professional motor insurance quotation system that was developed by Dalitso Zulu for the Hobbiton Technologies Challenge.
 Key Features
   It offers a clean, responsive interface with an AI-guided chat assistant that leads users through a 5-step quotation flow, including ZRA-compliant vehicle classification, driver details input, coverage selection, and real-time premium calculation,as a result of the end proccess a quoatation in pdf form can be downloaded by the user .
 
@@ -8,59 +10,15 @@ Built using React 18, TypeScript, Vite, Geist UI, and jsPDF, the app includes fo
  Purpose
 This application is a complete quotation Use case flow for obtaining a quote for motor insurance
 
-## 🚀 Deployment
+ Deployment
 
-### Netlify (Recommended)
+ Netlify (Recommended)
 
 This project is configured for Netlify deployment with automatic builds and deployments.
 
-#### Automatic Deployment
 
-1. **Connect to Netlify:**
-   - Go to [Netlify](https://app.netlify.com/)
-   - Sign up/Login with GitHub
-   - Click "New site from Git"
-   - Connect your GitHub repository
-
-2. **Configure Build Settings:**
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-   - Click "Deploy site"
-
-3. **Your site will be live at:**
-   ```
-   https://your-site-name.netlify.app/
-   ```
-
-#### Manual Deployment
-
-1. **Build the project:**
-   ```bash
-   npm run build
-   ```
-
-2. **Deploy to Netlify:**
-   - Go to [Netlify](https://app.netlify.com/)
-   - Drag the `dist` folder to the deploy area
-   - Your site will be live instantly!
-
-### GitHub Pages
-
-This project is also configured for GitHub Pages deployment. The app will be available at: `https://[your-username].github.io/MotorCare_Insurance/`
-
-#### Automatic Deployment (Recommended)
-
-1. Push your code to the `main` or `master` branch
-2. GitHub Actions will automatically build and deploy to GitHub Pages
-3. Your site will be available in a few minutes
-
-#### Manual Deployment
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
+   
+  
 2. Build the project:
    ```bash
    npm run build
