@@ -19,7 +19,7 @@ import GlobalProgress from "./components/GlobalProgress";
 export default function App() {
   return (
     <div className="app">
-      <Router basename="/MotorCare_Insurance">
+      <Router basename="/">
         <GlobalProgress />
         <Switch>
           <Route exact path="/" component={Home} />

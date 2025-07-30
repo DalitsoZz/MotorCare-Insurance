@@ -10,9 +10,43 @@ This application is a complete quotation Use case flow for obtaining a quote for
 
 ## 🚀 Deployment
 
+### Netlify (Recommended)
+
+This project is configured for Netlify deployment with automatic builds and deployments.
+
+#### Automatic Deployment
+
+1. **Connect to Netlify:**
+   - Go to [Netlify](https://app.netlify.com/)
+   - Sign up/Login with GitHub
+   - Click "New site from Git"
+   - Connect your GitHub repository
+
+2. **Configure Build Settings:**
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+   - Click "Deploy site"
+
+3. **Your site will be live at:**
+   ```
+   https://your-site-name.netlify.app/
+   ```
+
+#### Manual Deployment
+
+1. **Build the project:**
+   ```bash
+   npm run build
+   ```
+
+2. **Deploy to Netlify:**
+   - Go to [Netlify](https://app.netlify.com/)
+   - Drag the `dist` folder to the deploy area
+   - Your site will be live instantly!
+
 ### GitHub Pages
 
-This project is configured for GitHub Pages deployment. The app will be available at: `https://[your-username].github.io/MotorCare_Insurance/`
+This project is also configured for GitHub Pages deployment. The app will be available at: `https://[your-username].github.io/MotorCare_Insurance/`
 
 #### Automatic Deployment (Recommended)
 
@@ -56,6 +90,7 @@ This project is configured for GitHub Pages deployment. The app will be availabl
 
 ### Important Notes
 
-- The app is configured with the base path `/MotorCare_Insurance/` for GitHub Pages
+- The app is configured with the base path `/` for Netlify deployment
 - React Router is configured with the correct basename
-- All assets and routes will work correctly on GitHub Pages"# Trigger deployment" 
+- All assets and routes will work correctly on both Netlify and GitHub Pages
+- Netlify provides automatic HTTPS and better performance
