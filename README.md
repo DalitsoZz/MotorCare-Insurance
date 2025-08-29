@@ -1,8 +1,7 @@
 Project Overview(https://adorable-melomakarona-31e202.netlify.app/)
 
   MotorCare Insurance
-  is a professional motor insurance quotation system that was developed by Dalitso Zulu for the Hobbiton Technologies Challenge.
-Key Features
+  is a professional motor insurance quotation system that was developed by Dalitso Zulu.
   It offers a clean, responsive interface with an AI-guided chat assistant that leads users through a 5-step quotation flow, including ZRA-compliant vehicle classification, driver details input, coverage selection, and real-time premium calculation,as a result of the end proccess a quoatation in pdf form can be downloaded by the user .
 
   Technologies Used
